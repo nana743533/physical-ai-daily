@@ -1,0 +1,44 @@
+{
+  "episodes": 1000,
+  "mean_length": 22.197,
+  "by_gamma": {
+    "0.9": {
+      "mean": 8.516268627416848,
+      "median": 8.649148282327008,
+      "std": 1.0181755574822706,
+      "min": 5.6953279000000006,
+      "max": 9.996670103634687,
+      "max_possible_500steps": 10.000000000000002,
+      "mean_over_max_possible": 0.8516268627416846,
+      "horizon_1_over_1_minus_gamma": 10.000000000000002,
+      "return_at_30_steps": 9.57608841724784,
+      "return_at_76_steps": 9.996670103634687
+    },
+    "0.99": {
+      "mean": 19.5061953067262,
+      "median": 17.38313761644132,
+      "std": 8.415307505218777,
+      "min": 7.725530557207986,
+      "max": 53.41192248302062,
+      "max_possible_500steps": 99.34295169575846,
+      "mean_over_max_possible": 0.19635208108638308,
+      "horizon_1_over_1_minus_gamma": 99.99999999999991,
+      "return_at_30_steps": 26.029962661171957,
+      "return_at_76_steps": 53.41192248302062
+    },
+    "1.0": {
+      "mean": 22.197,
+      "median": 19.0,
+      "std": 11.310534514336624,
+      "min": 8.0,
+      "max": 76.0,
+      "max_possible_500steps": 500.0,
+      "mean_over_max_possible": 0.044393999999999996,
+      "horizon_1_over_1_minus_gamma": null,
+      "return_at_30_steps": 30.0,
+      "return_at_76_steps": 76.0
+    }
+  },
+  "ratio_mean_099_over_09": 2.2904626615380517,
+  "ratio_mean_10_over_099": 1.1379461576674537
+}

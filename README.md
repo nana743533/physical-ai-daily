@@ -11,12 +11,14 @@ Physical AI を毎日1本ずつ書く技術発信の、実験コードと結果�
 | 日 | 内容 | フォルダ |
 |---|---|---|
 | 1 | ランダム方策の CartPole。平均 22.2 ステップで倒れる | [day01](day01) |
+| 2 | 1日目の 1,000 エピソードを割引率 γ = 0.9 / 0.99 / 1.0 で数え直す。平均の収益は 8.5 / 19.5 / 22.2 | [day02](day02) |
 
 ## 動かし方
 
 ```bash
 uv sync
 uv run python day01/random_cartpole.py
+uv run python day02/discounted_return.py
 ```
 
 Python 3.12、Gymnasium 1.4、MuJoCo 3.16、Stable-Baselines3 2.9、PyTorch 2.14 で動かしています。
