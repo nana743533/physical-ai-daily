@@ -1,0 +1,13 @@
+[project]
+name = "physical-ai-daily"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "gymnasium[classic-control,mujoco]>=1.4.0",
+    "imageio>=2.38.1",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "stable-baselines3>=2.9.0",
+    "torch>=2.14.1",
+]
