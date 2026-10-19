@@ -36,7 +36,7 @@ Physical AI、つまり画面の外で物を動かす AI に興味が出てき�
 
 **CartPole-v1** は Gymnasium に入っている環境の1つで、この記事で扱う倒立振子です。環境の仕様は https://gymnasium.farama.org/environments/classic_control/cart_pole/ にあります。名前の末尾の v1 はバージョンで、v0 は 200 ステップで打ち切り、v1 は 500 ステップで打ち切りという違いがあります。
 
-余談ですが、この倒立振子の問題は Barto、Sutton、Anderson が 1983 年の論文で強化学習の例題として使ったもので、40 年以上前から同じ問題が使われています。
+この倒立振子の問題自体は Gymnasium より古く、Barto、Sutton、Anderson が 1983 年の論文で強化学習の例題として使ったものです。40 年以上前から同じ問題が使われています。
 
 ## 倒立振子（CartPole）とは何か
 
