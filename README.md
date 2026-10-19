@@ -1,6 +1,6 @@
 # physical-ai-daily
 
-Physical AI を毎日1本ずつ書く技術発信の、実験コードと結果の置き場です。記事は [Zenn](https://zenn.dev/nana743533) に出しています。
+Physical AI を毎日1本ずつ書く技術発信の、実験コードと結果の置き場です。記事は [Qiita](https://qiita.com/nana743533) に出しています。
 
 日ごとにフォルダを分けています。各フォルダに、その日に動かしたスクリプト、結果（`result.json`）、図が入っています。
 
